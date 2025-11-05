@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.container {
+    height: 100vh;
+    justify-content: stretch;
+}
+
+.tile {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
